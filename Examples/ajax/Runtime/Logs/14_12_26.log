@@ -1,0 +1,132 @@
+[ 2014-12-26T16:03:37+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.029515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029964s ]
+ERR: Unknown database 'examples'
+
+[ 2014-12-26T19:58:10+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+ERR: Unknown database 'examples'
+
+[ 2014-12-26T20:18:33+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005665s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026698s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002105s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002056s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2014-12-26T20:19:14+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.009455s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001317s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002243s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002517s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009737s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2014-12-26T20:20:18+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.004120s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002160s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2014-12-26T20:25:46+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.003820s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092389s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001857s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009230s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002284s ]
+
+[ 2014-12-26T20:30:38+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.004709s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001706s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002178s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001987s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003330s ]
+
+[ 2014-12-26T20:31:03+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+ERR: 无法加载模块:Index
+
+[ 2014-12-26T20:31:19+08:00 ] 127.0.0.1 /mszs/examples/ajax/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005056s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046575s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001999s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002105s ]
+

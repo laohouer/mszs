@@ -1,0 +1,63 @@
+[ 2014-12-26T19:58:21+08:00 ] 127.0.0.1 /mszs/examples/curd/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+ERR: Unknown database 'examples'
+
+[ 2014-12-26T20:26:23+08:00 ] 127.0.0.1 /mszs/examples/curd/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.003693s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001099s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046967s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002153s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002127s ]
+
+[ 2014-12-26T20:57:50+08:00 ] 127.0.0.1 /mszs/examples/curd/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.004311s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025016s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002271s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001910s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001784s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008150s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2014-12-26T21:05:22+08:00 ] 127.0.0.1 /mszs/examples/curd/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.004067s ]
+SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 3   [ RunTime:0.001473s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002236s ]
+

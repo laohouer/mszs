@@ -1,0 +1,147 @@
+[ 2015-01-10T16:40:30+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.041297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041572s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.020641s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_wish`
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002088s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hd_wish` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.224707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.031099s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.046695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.018594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.017252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.114467s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.053406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.053672s ]
+
+[ 2015-01-10T16:40:39+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.002000s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_wish`
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000574s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hd_wish` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007140s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000224s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000165s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2015-01-10T17:20:19+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.025108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025280s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.008403s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_wish`
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.003472s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hd_wish` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.194303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194546s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.030560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013669s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010763s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.017845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.073302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011512s ]
+
+[ 2015-01-10T17:20:33+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.079817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.079969s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-01-10T17:33:15+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+
+[ 2015-01-10T20:01:09+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001696s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_wish`
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000457s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hd_wish` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000754s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003214s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-01-10T20:01:59+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2015-01-10T20:13:49+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+
+[ 2015-01-10T20:14:42+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.001547s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_wish`
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000235s ]
+ERR: 1146:Table 'thinkphp.hd_wish' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `hd_wish` 
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003130s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+

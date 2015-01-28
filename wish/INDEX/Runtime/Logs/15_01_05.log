@@ -1,0 +1,622 @@
+[ 2015-01-05T00:10:03+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.025770s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049788s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2015-01-05T16:24:12+08:00 ] 127.0.0.1 /mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.045693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056325s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.108851s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.009207s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.293926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.294125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.036791s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.022446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.063515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002700s ]
+
+[ 2015-01-05T16:24:46+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.019492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019716s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:25:39+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/wish/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:25:42+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011901s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:28:05+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:28:16+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005195s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.174177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2015-01-05T16:28:21+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:28:31+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:28:33+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T16:33:08+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005974s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002245s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025152s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001279s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004159s ]
+
+[ 2015-01-05T16:38:54+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005113s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001505s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2015-01-05T16:39:49+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005675s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101551s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001746s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2015-01-05T16:41:24+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.007785s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002039s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.138606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138775s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001434s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2015-01-05T16:42:38+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.004155s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2015-01-05T16:43:25+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005922s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001796s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011045s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2015-01-05T16:56:26+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.004601s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.024546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001271s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028566s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2015-01-05T16:56:51+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.006728s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021021s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-01-05T16:57:45+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.016987s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001598s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001112s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004962s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2015-01-05T16:58:19+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.010226s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.003243s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025952s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003044s ]
+
+[ 2015-01-05T17:01:19+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005556s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002101s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021972s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005855s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.045290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.045427s ]
+
+[ 2015-01-05T17:01:47+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.007120s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002609s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-01-05T17:01:52+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:02:41+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:05:22+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:19:43+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005613s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001807s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030029s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004303s ]
+
+[ 2015-01-05T17:19:46+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:20:57+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:21:08+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005532s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-01-05T17:21:18+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:41:35+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005070s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001180s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.119093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.019873s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.017634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001699s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2015-01-05T17:41:40+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017958s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:44:08+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.021516s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020995s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001286s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005880s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001311s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2015-01-05T17:46:14+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.020593s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.003146s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001302s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006066s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2015-01-05T17:46:30+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:46:58+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005204s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002112s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2015-01-05T17:47:03+08:00 ] 127.0.0.1 /mszs/wish/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.005188s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001792s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075844s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000928s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000757s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004326s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-01-05T17:48:49+08:00 ] 127.0.0.1 /mszs/wish/index.php/index/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+ERR: 无法加载模块:index
+
+[ 2015-01-05T17:49:13+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.008089s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002701s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028104s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001698s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2015-01-05T17:50:28+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.045468s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.003570s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000689s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002461s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2015-01-05T17:50:46+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+
+[ 2015-01-05T17:51:42+08:00 ] 127.0.0.1 /mszs/wish/index.php/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+

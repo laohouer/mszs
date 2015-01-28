@@ -1,0 +1,73 @@
+[ 2014-12-26T20:27:56+08:00 ] 127.0.0.1 /mszs/examples/file/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.003473s ]
+ERR: 1146:Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_photo`
+SQL: SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1   [ RunTime:0.001141s ]
+ERR: 1146:Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020895s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002401s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002085s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002158s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009090s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002170s ]
+
+[ 2014-12-26T20:58:27+08:00 ] 127.0.0.1 /mszs/examples/file/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.003264s ]
+ERR: 1146:Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_photo`
+SQL: SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1   [ RunTime:0.000953s ]
+ERR: 1146:Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_photo` ORDER BY create_time desc LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019209s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001932s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001862s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002287s ]
+
+[ 2014-12-26T20:58:53+08:00 ] 127.0.0.1 /mszs/examples/file/index.php/Index/upload/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+NOTIC: [2] md5_file(./Uploads/549d5b8d406e2.gif) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory D:\doc\360yp\web\APMServ5.2.6\www\htdocs\mszs\Examples\file\App\Lib\ORG\UploadFile.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `think_photo` [ RunTime:0.003914s ]
+ERR: 1146:Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_photo`
+SQL: INSERT INTO `think_photo` (`image`,`create_time`) VALUES ('549d5b8d406e2.gif',1419598733) [ RunTime:0.002100s ]
+ERR: 1146:Table 'examples.think_photo' doesn't exist
+ [ SQL语句 ] : INSERT INTO `think_photo` (`image`,`create_time`) VALUES ('549d5b8d406e2.gif',1419598733)
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001204s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001320s ]
+

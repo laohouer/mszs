@@ -1,0 +1,18 @@
+[ 2015-01-27T23:18:18+08:00 ] 127.0.0.1 /phpsite/mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008326s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: open_basedir restriction in effect. File(C:\Windows\TEMP\) is not within the allowed path(s): (D:/doc/360yp/phpsite/;D:/soft/APMServ5.2.6/tmp/uploadtemp/;) D:\doc\360yp\phpsite\mszs\thinkphp\Common\functions.php 第 566 行.
+
+[ 2015-01-27T23:18:23+08:00 ] 127.0.0.1 /phpsite/mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007976s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: open_basedir restriction in effect. File(C:\Windows\TEMP\) is not within the allowed path(s): (D:/doc/360yp/phpsite/;D:/soft/APMServ5.2.6/tmp/uploadtemp/;) D:\doc\360yp\phpsite\mszs\thinkphp\Common\functions.php 第 566 行.
+
+[ 2015-01-27T23:25:44+08:00 ] 127.0.0.1 /phpsite/mszs/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004082s ]
+ERR: Unknown database 'thinkphp'
+
